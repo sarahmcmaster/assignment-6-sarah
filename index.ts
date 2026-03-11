@@ -1,3 +1,10 @@
-import server from './server'
+import startServer from './server'
 
-await server(3000)
+async function main(): Promise<void> {
+  await startServer(3000)
+}
+
+main().catch((error) => {
+  console.error('Failed to start server:', error)
+  process.exit(1)
+})
