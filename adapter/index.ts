@@ -1,4 +1,4 @@
-import startServer from './server'
+import startServer from './server.ts'
 
 async function main(): Promise<void> {
   await startServer(3000)

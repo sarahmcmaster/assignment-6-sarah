@@ -9,11 +9,14 @@
   "service": "dev",
   "features": {
     "ghcr.io/mcmastercce/bvd-103-mcmasterful-books/mcmasterful-books:0.1.5": {},
-    "ghcr.io/devcontainers/features/java": {}
+    "ghcr.io/devcontainers/features/java": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   // Features to add to the dev container. More info: https://containers.dev/features.
-  // "features": {},
+  // "features": {
+  // "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  // }
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Use 'postCreateCommand' to run commands after the container is created.
